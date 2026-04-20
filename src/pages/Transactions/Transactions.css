@@ -1,0 +1,128 @@
+.transactions {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px; /* reduced */
+}
+
+.transactions h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.filter-toggle {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.filter-toggle:hover {
+  background: #1d4ed8;
+}
+
+.filters {
+  background: white;
+  padding: 14px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.filters input {
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  min-width: 140px;
+}
+
+.txn-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.txn-table th {
+  background: #f3f4f6;
+  padding: 12px;
+  text-align: left;
+}
+
+.txn-table td {
+  padding: 12px;
+  border-top: 1px solid #eee;
+}
+
+.txn-table tbody tr:nth-child(even) {
+  background: #fafafa;
+}
+
+.txn-table tbody tr:hover {
+  background: #f1f5f9;
+}
+
+.pagination {
+  margin-top: 18px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.pagination button {
+  padding: 6px 12px;
+  background: #2563eb;
+  color: white;
+  border-radius: 6px;
+  border: none;
+}
+
+.pagination button:disabled {
+  background: #d1d5db;
+}
+
+.filter-actions {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.apply-btn {
+  padding: 6px 12px;
+  background-color: #1677ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.apply-btn:hover {
+  background-color: #0958d9;
+}
+
+.reset-btn {
+  padding: 6px 12px;
+  margin-left: 10px;
+  background-color: #999;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.reset-btn:hover {
+  background-color: #666;
+}
